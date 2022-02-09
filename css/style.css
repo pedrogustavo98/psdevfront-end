@@ -77,6 +77,7 @@ article{
     background-color: white;
     padding: 10px;
     color: black;
+    overflow:hidden;
 }
 .my_abilitys{
     display:flex;
@@ -86,7 +87,9 @@ article{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     padding:15px;
-    height: 220px;
+    height: 100vh;
+    overflow:hidden;
+
 }
 .imagens_habilidades{
     width:105px;
@@ -237,14 +240,14 @@ h2{
     }
     
     .imagens_habilidades{
-        min-width: 200px;
-        min-height: 200px;
+        max-width: 200px;
+        max-height: 200px;
         overflow-y: hidden;
     }
     
     .imagens_habilidades>img{
-        min-width: 200px;
-        min-height:200px;
+        max-width: 200px;
+        max-height:200px;
         cursor: pointer;
         margin: 5%;
     }
