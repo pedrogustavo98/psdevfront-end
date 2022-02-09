@@ -223,7 +223,7 @@ h2{
     
     .menu{
         min-width: 50%;
-        height:100vh;
+        height:50vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
