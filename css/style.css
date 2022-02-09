@@ -167,7 +167,7 @@ h2{
     color:white;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 750px){
 
     *{
         margin:0;
