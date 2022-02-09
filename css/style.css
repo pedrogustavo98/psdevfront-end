@@ -166,3 +166,187 @@ h2{
     margin:5px;
     color:white;
 }
+
+@media screen and (max-width: 400px){
+
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        overflow-x:hidden;
+    }
+    
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        min-width: 50%;
+        height:100%;
+        background:white;
+        opacity: 0.8;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    header>img{
+        max-width: 100%;
+        height: 200vh;
+    }
+    
+    #projetos{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .fundo{
+        min-width: 100%;
+        background-color: #10121a;
+    }
+    
+    .fundo>h1{
+        display: flex;
+        align-items: center;
+        margin: 2%;
+        padding: 2%;
+        max-height: 20%;
+        min-width: 1vh;
+        background-color: transparent;
+        border-bottom: 3px solid white;
+        color: white;
+        flex-wrap: wrap;
+        font-size: 150%;
+    }
+    
+    
+    .menu{
+        min-width: 50%;
+        min-height:50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .button_action{
+        max-height: 20%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight:bold;
+        cursor: pointer;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .button_action:hover{
+        border-bottom: 3px solid black;
+        cursor:pointer;
+    }
+    
+    body{
+        background-image: url("https://i.postimg.cc/hGbYHdc8/fundo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    article{
+        display: flex;
+        flex-direction: column;
+        min-width:50%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+    }
+    
+    .sobre{
+        min-width:100%;
+        background-color: black;
+        padding: 10px;
+        font-size:90%;
+        text-align:start;
+    }
+    
+    .habilidades{
+        min-width: 100%;
+        background-color: white;
+        padding: 10px;
+        color: black;
+    }
+    
+    .my_abilitys{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        padding:2%;
+        max-height: 100vh;
+        min-width: 100%;
+    
+    }
+    
+    .imagens_habilidades{
+        min-width: 80%;
+        max-height: 80%;
+        overflow-y: hidden;
+    }
+    
+    .imagens_habilidades>img{
+        min-width: 50%;
+        min-height: 100%;
+        cursor: pointer;
+        margin: 5%;
+    }
+    
+    .imagens_habilidades:hover{
+        background-color: white;
+        opacity:0.6;
+        transition: 1s;
+        transform: rotate(15deg);
+        max-width: 80%;
+        max-height: 80%;
+        margin: 5%;
+        
+    }
+    
+    
+    
+    h1{
+        margin-bottom: 10px;
+    }
+    
+    h2{
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .fundo_imagem{
+        display: flex;
+        flex-direction:row;
+        width:80%;
+        height:inherit;
+        justify-content:center;
+        align-items:center;
+        color:white;
+    }
+    
+    
+    .imagem_project{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 50%;
+        max-height: 50%;
+        background-color:black;
+        border-radius: 50px;
+        color:white;
+        text-align: center;
+    }
+}
