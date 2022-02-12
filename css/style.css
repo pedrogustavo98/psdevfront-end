@@ -74,6 +74,7 @@ article{
 }
 .habilidades{
     width: 100%;
+    height:45vh;
     background-color: white;
     padding: 10px;
     color: black;
@@ -229,7 +230,7 @@ h2{
     .my_abilitys{
         display:flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         text-align: center;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-weight: bold;
