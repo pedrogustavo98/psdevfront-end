@@ -217,11 +217,15 @@ h2{
     }
     
     .habilidades{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         min-width:80%;
         height: 100vh;
         background-color: white;
         padding: 10px;
         color: black;
+        margin: auto;
     }
     
     .my_abilitys{
@@ -295,10 +299,11 @@ h2{
         justify-content: center;
         align-items: center;
         max-width: 50%;
-        max-height: 50%;
+        max-height: 5%;
         background-color:black;
         border-radius: 50px;
         color:white;
         text-align: center;
+        margin: auto;
     }
 }
