@@ -290,6 +290,7 @@ h2{
         height:inherit;
         justify-content:center;
         align-items:flex-start;
+        border-radius: 50px 50px 50px 50px;
         color:white;
     }
     
@@ -301,7 +302,6 @@ h2{
         width: 150px;
         height: 100px;
         background-color:black;
-        border-radius: 50px;
         color:white;
         font-size: medium;
         text-align: center;
